@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'natalia';
+  src: url(../assets/natalia.ttf)
+}
+
+
+
+body {
+  font-family: natalia;
+  margin: 0;
+  padding: 0;
+}
+
+/*DESCRIPCION Y FOTO*/
+h1 {
+  text-align: center;
+  color: rgb(70, 94, 166);
+}
+
+#introduccion {
+  height: auto;
+
+}
+.color {
+  color: rgb(155, 78, 173);
+}
+
+p{
+font-size:larg;
+}
+.descripcion::first-letter {
+  text-align: left;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: rgb(155, 78, 173);
+}
+
+.natalia {
+  display: flex;
+  height: auto;
+  width: cover;
+}
+.codigo{
+  height: 6rem;
+}
+/*telefono*/
+@media (min-width:200px) and (max-width:991px) {
+  .lila {
+    height: auto;
+    background-image: url(../assets/danzakuduro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .red1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/*tablet*/
+
+@media (min-width:100px) and (max-width:991px) {
+  .lila {
+    height: auto;
+    background-image: url(../assets/lila.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+
+  .botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .red1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/*pc*/
+@media   (min-width:991.5px) {
+  .lila {
+    height: auto;
+    background-image: url(../assets/crecia.png);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+  }
+
+  .botones {
+    display: flex;
+    align-items: end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 7rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+
+/* TERMINA DESCRIPCION Y FOTO*/
+
+/* COMIENZAN PROYECTOS*/
+#skills {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(126, 126, 193);
+}
+
+
+.proyecto1 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto2 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto3 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto4 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto5 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto6 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto7 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto8 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+.proyecto9 {
+  display: grid;
+  justify-content: space-between;
+  height: auto;
+}
+
+
+/* TERMINAN PROYECTOS*/
+
+
+.sabroso {
+  height: 5rem;
+}
+
+#proyectos {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(69, 91, 166);
+}
+
+.azul {
+  background-image: url(../assets/fondo\ azul.png);
+  background-size: 103% 103%;
+  background-repeat: no-repeat;
+}
+
+#contacto {
+  color:rgb(187, 111, 206);
+}
+
+.subtitulo {
+  color: #000;
+}
+.red1{
+  width: 4rem;
+}
+
+#mensaje {
+max-width: 100%;
+min-width: 100%;
+max-height: 10rem;
+min-height: rem;
+margin-bottom:2rem;
+}
+
+.enviar {
+max-width: 4.5rem;
+min-width: 4.5rem;
+max-height: 2.5rem;
+min-height: 2.5rem;
+margin-bottom:2rem;
+}
+
+.patazmmm {
+  background-color: rgb(240, 215, 249);
+}
+
+.footer{
+  color: #8a69c6;
+}
+
+.btn-boton {
+  background-color: rgb(156, 131, 204);
+  color: white;
+}
+
+.regresar{
+  color: rgb(191, 80, 219);
+}
